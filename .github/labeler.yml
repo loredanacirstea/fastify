@@ -4,4 +4,4 @@ documentation:
 
 # PRs that only touch type files
 typescript:
-- all: ['**/*.d.ts']
+- all: ['**/*.d.ts', '**/*-d.ts']
