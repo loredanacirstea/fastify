@@ -1,6 +1,6 @@
 import fastify, { FastifyError, FastifyInstance, ValidationResult } from '../../fastify'
 import { expectAssignable, expectError, expectType } from 'tsd'
-
+//change
 const server = fastify()
 
 expectAssignable<FastifyInstance>(server.addSchema({
