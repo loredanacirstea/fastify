@@ -1,7 +1,7 @@
 # PRs that only touch the docs folder
 documentation:
-- all: [docs/**/*]
+- all: ['**/*.md']
 
 # PRs that only touch type files
 typescript:
-- all: [types/**/*]
+- all: ['**/*.d.ts']
