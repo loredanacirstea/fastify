@@ -3,7 +3,7 @@
 ## What?
 
 Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
-
+change
 ### I want to be a collaborator!
 
 If you think you meet the above criteria and we have not invited you yet, we are sorry!
