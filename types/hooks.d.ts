@@ -6,7 +6,7 @@ import { FastifyRequest } from './request'
 import { FastifyReply } from './reply'
 import { FastifyError } from 'fastify-error'
 import { FastifyLoggerInstance } from './logger'
-
+// change
 type HookHandlerDoneFunction = <TError extends Error = FastifyError>(err?: TError) => void
 
 interface RequestPayload extends Readable {
