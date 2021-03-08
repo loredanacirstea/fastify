@@ -10,7 +10,7 @@ import * as http2 from 'http2'
 import { Chain as LightMyRequestChain } from 'light-my-request'
 import { expectType, expectError, expectAssignable } from 'tsd'
 import { FastifyLoggerInstance } from '../../types/logger'
-
+// change
 // FastifyInstance
 // http server
 expectType<FastifyInstance<http.Server, http.IncomingMessage, http.ServerResponse> & PromiseLike<FastifyInstance<http.Server, http.IncomingMessage, http.ServerResponse>>>(fastify())
