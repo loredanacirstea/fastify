@@ -4,17 +4,4 @@ documentation:
 
 # PRs that only touch type files
 typescript:
-- all: ["**/types/**/*"]
-
-typescript2:
-- all: ["**/types/**/*"]
-- all: ["**/*.d.ts"]
-- all: ["**/*-d.ts"]
-
-typescript3:
-- any: ["**/types/**/*"]
-- any: ["**/*.d.ts"]
-- any: ["**/*-d.ts"]
-
-typescript4:
 - all: ["**/*[.|-]d.ts"]
