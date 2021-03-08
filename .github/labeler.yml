@@ -6,15 +6,6 @@ documentation:
 typescript:
 - all: ["**/types/**/*"]
 
-
-documentation2:
-- all: ["docs/**/*"]
-- all: ["**/*.md"]
-
-documentation3:
-- any: ["docs/**/*"]
-- any: ["**/*.md"]
-
 typescript2:
 - all: ["**/types/**/*"]
 - all: ["**/*.d.ts"]
@@ -24,3 +15,6 @@ typescript3:
 - any: ["**/types/**/*"]
 - any: ["**/*.d.ts"]
 - any: ["**/*-d.ts"]
+
+typescript4:
+- all: ["**/*[.|-]d.ts"]
